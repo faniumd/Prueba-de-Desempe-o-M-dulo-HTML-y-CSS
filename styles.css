@@ -199,6 +199,54 @@ footer {
   text-decoration: none;
 }
 
+.social li:nth-child(1) a::before{
+    content: "";
+    background: url(assets/iconimstag.jpeg) no-repeat center;
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+    gap: 20px;
+    display: inline-block; 
+    margin-right: 5px;
+    
+}
+
+.social li:nth-child(2) a::before{
+    content: "";
+    background: url(assets/spotifyiconenblanco.png) no-repeat center;
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+    gap: 20px;
+    display: inline-block; 
+    margin-right: 5px;
+    
+}
+
+.social li:nth-child(3) a::before{
+    content: "";
+    background: url(assets/ytbicon.png) no-repeat center;
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+    gap: 20px;
+    display: inline-block; 
+    margin-right: 5px;
+    
+}
+
+.social li:nth-child(4) a::before{
+    content: "";
+    background: url(assets/Facebook_logo_\(square\).png) no-repeat center;
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+    gap: 20px;
+    display: inline-block; 
+    margin-right: 5px;
+    
+}
+
 #social a, .social a:hover {
   color: white;
 }
